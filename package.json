@@ -1,0 +1,38 @@
+{
+	"name": "vite-react-boilerplate",
+	"license": "GPL-3.0-or-later",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "tsc && vite build",
+		"dev": "vite",
+		"format": "prettier . --write",
+		"lint": "eslint . --ext cjs,js,jsx,mjs,ts,tsx --report-unused-disable-directives",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/eslint": "^8.44.6",
+		"@types/node": "^20.8.10",
+		"@types/react": "^18.2.33",
+		"@types/react-dom": "^18.2.14",
+		"@typescript-eslint/eslint-plugin": "^6.9.1",
+		"@typescript-eslint/parser": "^6.9.1",
+		"@vitejs/plugin-react-swc": "^3.4.1",
+		"eslint": "^8.52.0",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.4",
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2",
+		"vite": "^4.5.0"
+	},
+	"engines": {
+		"node": "^20.9.0",
+		"pnpm": "^8.10.0"
+	}
+}
